@@ -1,0 +1,11 @@
+export const TIMEOUTS = {
+    SHORT: 10000, 
+    MEDIUM: 20000,
+    LONG: 30000, 
+    ELEMENT: 10000,
+    NAVIGATION: 15000,
+    NOTIFICATION: 30000
+};
+
+export const DEFAULT_TIMEOUT = TIMEOUTS.ELEMENT;
+export const LOG_PREFIX = '[Test Log]';

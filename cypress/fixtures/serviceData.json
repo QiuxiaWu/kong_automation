@@ -1,0 +1,13 @@
+{
+  "protocolService": {
+    "host": "api.kong-air.com",
+    "port": "5050",
+    "path": "/v1",
+    "protocol": "https",
+    "name": "not-full-url-service"
+  },
+  "fullUrlService": {
+    "url": "https://api2.example.com/v2",
+    "name": "full-url-service"
+  }
+}

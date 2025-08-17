@@ -1,0 +1,25 @@
+{
+  "name": "kong-project",
+  "version": "1.0.0",
+  "description": "this project is for creating gateway service from scratch",
+  "keywords": [
+    "testing"
+  ],
+  "license": "ISC",
+  "author": "Vicki",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open", 
+    "report:merge": "node cypress/scripts/report.js", 
+    "test:report": "npm run test && npm run report:merge" 
+  },
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "dotenv": "^17.2.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}

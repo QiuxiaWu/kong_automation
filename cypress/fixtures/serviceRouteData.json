@@ -1,0 +1,7 @@
+{
+  "basicRouteConfiguration": {
+    "host": "example.com",
+    "path": "/api/v1",
+    "name": "test-service-route"
+  }
+}
